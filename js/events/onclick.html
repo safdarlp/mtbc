@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Events - OnClick Example</title>
+  </head> 
+  <body>
+    <div id="demo"></div>
+    <button onclick="document.getElementById('demo').innerHTML = Date()">What time is it?</button>
+    <script>
+    <button onclick="showDate('demo');">What time is it?</button>
+
+    function showDate(element) {
+     document.getElementById(element).innerHTML = Date();
+  }
+    </script>
+  </body>
+</html>
